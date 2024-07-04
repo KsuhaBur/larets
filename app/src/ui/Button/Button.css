@@ -1,0 +1,24 @@
+.btn {
+    border-radius: 12px;
+    border: none;
+    background-color: #E1B674;
+    margin-bottom: 2rem;
+    text-align: center;
+    width: 100%;
+    padding: 0.5rem;
+}
+
+.link {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Organetto', sans-serif;
+    
+}
+
+.btn:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
