@@ -5,7 +5,7 @@ import Button from '../../../ui/Button/Button';
  function ButtonLike() {
   return (
 
-      <Button name="МНЕ ВСЁ ПОНРАВИЛОСЬ" link='/maps' />
+      <Button name="МНЕ ВСЁ ПОНРАВИЛОСЬ" link='/maps/1' />
 
   )
 }

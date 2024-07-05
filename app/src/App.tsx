@@ -16,7 +16,7 @@ function App() {
      <BrowserRouter>
      <Routes>
      <Route path='/' element={<MainPage />} />
-      <Route path='/maps' element={<MapsPage />} />
+      <Route path='/maps/:branchId' element={<MapsPage />} />
       <Route path='/feedback' element={<FeedbackPage />} />
      </Routes>
      </BrowserRouter>
