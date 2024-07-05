@@ -4,7 +4,8 @@
 
 .text {
     color: white;
-    font-size: 24px;
+    font-size: 1.4rem;
     text-align: center;
     text-transform: uppercase;
+    width: 100%;
 }

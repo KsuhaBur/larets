@@ -36,7 +36,8 @@ body {
   rgba(202, 158, 163, 1),
   rgba(237, 207, 179, 1)
   );
-  height: 100vh;
+  min-height: 100vh;
+  min-height: calc(var(--vh, 1vh) * 100);
   font-family: 'Organetto', sans-serif;
   font-weight: 700;
 }

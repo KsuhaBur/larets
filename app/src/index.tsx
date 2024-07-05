@@ -12,6 +12,8 @@ import {
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
+const vh = window.innerHeight / 100;
+document.documentElement.style.setProperty('--vh', `${vh}px`);
 root.render(
   <React.StrictMode>
     <App />

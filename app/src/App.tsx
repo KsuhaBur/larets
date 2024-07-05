@@ -3,6 +3,7 @@ import {
   BrowserRouter,
   Routes,
   Route,
+  useParams,
 } from 'react-router-dom';
 import './App.css';
 import MainPage from './pages/MainPage/MainPage';
@@ -11,11 +12,13 @@ import MapsPage from './pages/MapsPage/MapsPage';
 
 
 function App() {
+  
+  
   return (
     <div >
      <BrowserRouter>
      <Routes>
-     <Route path='/' element={<MainPage />} />
+     <Route path='/:branchId' element={<MainPage />} />
       <Route path='/maps/:branchId' element={<MapsPage />} />
       <Route path='/feedback' element={<FeedbackPage />} />
      </Routes>

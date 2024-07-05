@@ -4,7 +4,6 @@ import Description from '../../../ui/Description/Description';
 function MainText() {
   return (
     <div>
-      
       <Description description="Поделитесь своим впечатлением о нашем ломбарде" />
     </div>
   )

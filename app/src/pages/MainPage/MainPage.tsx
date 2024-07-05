@@ -6,10 +6,9 @@ import GroupButtons from '../../modules/MainPage/Buttons/GroupButtons';
 import vectorsTop from '../../assets/vectors-page1_top.svg';
 import vectorsDown from "../../assets/vectors-page1_down.svg";
 
-export default class MainPage extends Component {
-  render() {
-    return (
-      <div >
+export default function MainPage() {
+  return (
+    <div>
         <img src={vectorsTop} alt="" className='vectors-top' />
         <img src={vectorsDown} alt="" className='vectors-down'/>
         <div className='main-container'>
@@ -18,9 +17,7 @@ export default class MainPage extends Component {
           <ModuleMainText />
           <GroupButtons />
         </div>
-        </div>
-        
-      </div>
-    )
-  }
+    </div>
+    </div>
+  )
 }
