@@ -1,5 +1,4 @@
 import React from 'react';
-import { buttonLike } from './constans';
 import Button from '../../../ui/Button/Button';
 import { branchProps } from '../../../modules/MapsPage/GroupMapsLink/constans/types';
 

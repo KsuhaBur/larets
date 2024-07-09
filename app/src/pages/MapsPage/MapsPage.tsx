@@ -4,11 +4,11 @@ import vectors from '../../assets/vectors-page2.svg';
 import MapsText from '../../modules/MapsPage/MapsText/MapsText';
 import GroupMapsLink from '../../modules/MapsPage/GroupMapsLink/GroupMapsLink';
 import { useParams } from 'react-router-dom';
-import { branchProps } from '../../modules/MapsPage/GroupMapsLink/constans/types';
 
 
 export default function MapsPage() {
   const {branchId} = useParams();
+  console.log(branchId);
 
   return (
     <div>

@@ -3,7 +3,6 @@ import {
   BrowserRouter,
   Routes,
   Route,
-  useParams,
 } from 'react-router-dom';
 import './App.css';
 import MainPage from './pages/MainPage/MainPage';

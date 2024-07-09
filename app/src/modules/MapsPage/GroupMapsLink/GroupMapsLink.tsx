@@ -9,14 +9,15 @@ import { branchProps } from './constans/types';
 
 
 export default function GroupMapsLink({idBranch}: branchProps) {
-  const branch = branches.find(b => b.id === parseInt(idBranch));
+  // const branch = branches.find(b => b.id === parseInt(idBranch));
+  const branch = branches.find(b => b.name === idBranch);
   
 
   if (!branch) {
     return <div>not found</div>
   }
 
-  if (parseInt(idBranch) === 2) {
+  if (idBranch == 'Tolstoy_41B') {
     return (
       <div className='maps-container-tol'>
       <MapYandex url={mapUrls.yandex(branch.yandexUrl)} />
